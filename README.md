@@ -1,7 +1,7 @@
 # 1. Introduction
 > Simple calculator for solving problems realted to discrete mathmatics, such as combinations, probabilities, truth-tables, and more.
 # 2. How to Install
-> - pip install discretemath_helper
+> - pip install -i https://test.pypi.org/simple/ discretemath_helper
 # 3. How to Run
 > - python3 calc.py "arguments depending on use"
 # 4. Available Arguments

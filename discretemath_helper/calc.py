@@ -1,9 +1,16 @@
 import math
 import sys
 
+if(len(sys.argv) < 2):
+    print("The argument list is too short")
+    exit(1)
+
 problemtype = sys.argv[1]
 
 if problemtype == "combination":
+    if(len(sys.argv) < 4):
+        print("The argument list is too short")
+        exit(1)
     n = int(sys.argv[2])
     r = int(sys.argv[3])
     if(n < r):
@@ -14,6 +21,9 @@ if problemtype == "combination":
     print("The answer for this combination is:", ans , "\n")
 
 if problemtype == "permutation":
+    if(len(sys.argv) < 4):
+        print("The argument list is too short")
+        exit(1)
     n = int(sys.argv[2])
     r = int(sys.argv[3])
     if(n < r):
@@ -24,6 +34,9 @@ if problemtype == "permutation":
     print("The answer for this permutation is:", ans , "\n")
 
 if problemtype == "truth-table":
+    if(len(sys.argv) < 3):
+        print("The argument list is too short")
+        exit(1)
     argument = sys.argv[2]
 
     numDashes = 24 + 3 + 4 + len(argument) + 1
@@ -56,6 +69,9 @@ if problemtype == "truth-table":
     print("\n")
 
 if problemtype == "bayes-prob":
+    if(len(sys.argv) < 5):
+        print("The argument list is too short")
+        exit(1)
     pta = int(sys.argv[2])
     pa = int(sys.argv[3])
     pt = int(sys.argv[4])
@@ -63,6 +79,9 @@ if problemtype == "bayes-prob":
     print("The answer for this bayes probabilty problem is:",ans,"\n")
 
 if problemtype == "big-o":
+    if(len(sys.argv) < 5):
+        print("The argument list is too short")
+        exit(1)
     a = int(sys.argv[2])
     b = int(sys.argv[3])
     d = int(sys.argv[4])
