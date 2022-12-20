@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.2: Class Implementation
+### Added or Changed
+> - Changed program from taking command line inputs to now using a class Calculator that you can import and use in a python file
+
 ## v1.1.1: First Implementation
 ### Added or Changed
 > - Added five functions: truth-table generator and combinations, permutations, Bayes probability theorem, and time complexity calculator
