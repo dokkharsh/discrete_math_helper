@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.3: Class Implementation
+### Added or Changed
+> - Corrected the README.md file
+
 ## v1.1.2: Class Implementation
 ### Added or Changed
 > - Changed program from taking command line inputs to now using a class Calculator that you can import and use in a python file
